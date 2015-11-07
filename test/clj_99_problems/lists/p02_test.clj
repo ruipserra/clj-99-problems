@@ -1,6 +1,6 @@
 (ns clj-99-problems.lists.p02-test
-  (require [clojure.test :refer :all]
-           [clj-99-problems.lists.p02 :refer :all]))
+  (:require [clojure.test :refer :all]
+            [clj-99-problems.lists.p02 :refer :all]))
 
 (deftest test-second-last
   (testing "lists"
